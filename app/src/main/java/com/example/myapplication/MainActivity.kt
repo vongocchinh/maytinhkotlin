@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
         }
         nhan.setOnClickListener {
             proocess=textIO.text.toString();
-            textIO.setText("$proocess-")
+            textIO.setText("$proocess*")
         }
         chia.setOnClickListener {
             proocess=textIO.text.toString();
